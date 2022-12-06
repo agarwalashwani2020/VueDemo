@@ -1,0 +1,16 @@
+REPOSITORY             TAG       IMAGE ID       CREATED        SIZE
+centos                 latest    927311af2297   20 hours ago   193MB
+
+docker tag webapplication1:dev agarwalashwani2020/windows-image-rep-1:dev-1
+
+docker tag ubuntu:latest agarwalashwani2020/linux-image-rep-1:ubuntu-tag-v1
+
+
+docker tag centos:latest usernameOfDockerHub/repository-name:latest
+
+
+docker tag ubuntu:latest agarwalashwani2020/test-image-1:latest
+
+docker push agarwalashwani2020/test-image-1:latest
+
+docker push agarwalashwani2020/test-image-1:latest
